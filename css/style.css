@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Karla-Light";
+  src: url("../fonts/Karla/Karla-Light.ttf");
+  format: "true-type";
+}
+
+@font-face {
+  font-family: "Karla-Regular";
+  src: url("../fonts/Karla/Karla-Regular.ttf");
+  format: "true-type";
+}
+
+@font-face {
+  font-family: "Karla-Bold";
+  src: url("../fonts/Karla/Karla-Bold.ttf");
+  format: "true-type";
+}
+
+/* Base Styles */
+body {
+  background: hsl(204, 43%, 93%);
+}
+
+h1 {
+  font-family: "Karla-Bold";
+  font-size: 1.5rem;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-family: "Karla-Bold";
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-family: "Karla-Regular";
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-family: "Karla-Light";
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+header {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 7%;
+  padding: 2rem;
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(221, 220, 220);
+}
+
+header h1 {
+  margin-bottom: 1.5rem;
+}
+
+header h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+header p {
+  color: hsl(218, 22%, 67%);
+  font-family: "Karla-Regular";
+  font-size: 0.9rem;
+  line-height: 1.75rem;
+}
+
+.container {
+  display: flex;
+  width: 45%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  /*
+  My border radius was NOT working. When someone on Stack Overflow
+  suggested overflow: hidden, I added it and this fixed the problem.
+  */
+
+  background: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(221, 220, 220);
+}
+
+/* Sections */
+
+#cta {
+  padding: 2.5rem 2rem 0 2rem;
+  background: hsl(179, 62%, 43%);
+  width: 100%;
+}
+
+#cta h3,
+#cta h4 {
+  color: #fff;
+}
+
+#why {
+  width: 100%;
+  padding: 2.5rem;
+  background: hsl(179, 47%, 52%);
+}
+
+#why h3 {
+  color: #fff;
+}
+
+#why li {
+  list-style-type: none;
+  line-height: 1.3rem;
+  font-family: "Karla-Light";
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.priceQuote h1 {
+  font-family: "Karla-Regular";
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.priceQuote h4 {
+  color: #fff;
+}
+
+span {
+  font-family: "Karla-Light";
+  color: hsl(204, 43%, 93%);
+  font-size: 0.9rem;
+}
+
+/* Button */
+button {
+  padding: 0.5rem 5.25rem;
+  margin: 1.5rem 0 0 0;
+  border-radius: 6px;
+  border: none;
+  background: hsl(71, 73%, 54%);
+  box-shadow: 1px 6px 12px hsl(179, 60%, 35%);
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: hsl(204, 43%, 93%);
+}
+
+button:hover {
+  background: hsl(71, 66%, 66%);
+  transition-duration: 1s;
+}
+
+button a:hover {
+  color: hsl(71, 61%, 21%);
+  transition-duration: 1s;
+}
+
+button a:hover {
+  background: hsl(71, 66%, 66%);
+  transition-duration: 1s;
+}
+
+button h4 {
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  margin-top: 1rem;
+}
+
+/* Attribution */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
