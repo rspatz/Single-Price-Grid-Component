@@ -1,0 +1,53 @@
+body {
+  background: hsl(204, 43%, 93%);
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+header {
+  width: 80%;
+}
+
+header p {
+  line-height: 1.6rem;
+}
+
+.container {
+  flex-direction: column;
+  width: 80%;
+}
+
+button {
+  width: 90%;
+  padding: 0.75rem 3rem;
+  margin-top: 2.3rem;
+  width: 100%;
+}
+
+#cta {
+  margin: 0;
+  padding: 2rem;
+}
+
+#why {
+  padding: 1rem 2.5rem 2.25rem 2.5rem;
+  margin-top: 0;
+}
+
+#why li {
+  line-height: 1.25rem;
+}
+
+.priceQuote h1 {
+  margin-bottom: 0.75rem;
+}
